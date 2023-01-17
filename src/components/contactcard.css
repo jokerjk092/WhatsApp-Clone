@@ -1,0 +1,46 @@
+.conatct-card{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid green; */
+    margin: 10px 0;
+    
+}
+@media screen and (max-width: 900px) {
+    .conatct-card {
+     flex-direction: column;
+     background-color: rgb(31, 30, 30);
+     
+    }
+    .conatct-card-logo>img{
+        display: none;
+        
+    }
+    .conatct-card-name>p{
+        font-size: small;
+    }
+  }
+  
+
+
+.conatct-card:hover{
+    cursor: pointer;
+}
+
+.conatct-card-logo{
+flex: 0.25;
+display: flex;
+justify-content: center;
+/* border: 1px solid rgb(0, 0, 0); */
+
+}
+.conatct-card-logo>img{
+    width: 55px;
+    border-radius: 30px;
+}
+.conatct-card-name{
+flex: 0.75;
+/* display: flex;
+justify-content: center; */
+/* border: 1px solid rgb(255, 0, 0); */
+}
+

@@ -1,0 +1,27 @@
+.page-sidebar{
+    /* border: 1px solid rgb(0, 0, 0); */
+    flex: 0.23;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background-color: black;
+    color: white;
+}
+.sidebar-header{
+flex: 0.1;
+/* border: 1px solid rgb(0, 237, 4); */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.sidebar-chats{
+    flex: 0.9;
+    /* border: 1px solid rgb(13, 0, 115); */
+}
+
+@media screen and (max-width: 900px) {
+    .sidebar-header>p{
+      font-size: small;
+    }
+  }

@@ -1,0 +1,9 @@
+.Home {
+    display: flex;
+  }
+  @media screen and (max-width: 900px) {
+    .Home>.side-bar{
+      display: none;
+    }
+  }
+ 
